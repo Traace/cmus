@@ -25,7 +25,7 @@
 #include <stdbool.h>
 
 struct track_info {
-	uint64_t uid;
+	uint32_t uid;
 	struct keyval *comments;
 
 	// next track_info in the hash table (cache.c)
